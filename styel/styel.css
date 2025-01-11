@@ -310,7 +310,9 @@ padding-left: 15px;
     background: rgb(0, 106, 80);
     padding: 15px;
     border: none;
-    margin-top: 150px;
+    margin-top: 20px;
+    color: white;
+    font-weight: 600;
     }
 
 .news{
@@ -332,14 +334,6 @@ text-align: left;
 
 }
 
-.Donate{
-
-   width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
 
 .hading{
     text-align: center;
@@ -369,6 +363,21 @@ text-align: left;
     text-align: center;
 }
 
+.Donate{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Today{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .takacard{
     display: flex;
     gap: 10px;
@@ -385,5 +394,28 @@ text-align: left;
     background-color:#8ba4cc;
     border-radius: 10px;
     /* width: 450.67px;    */
+
+}
+
+.input{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inputbox{
+    margin: 20px;
+    width: 80%;
+}
+.inputbox input{
+    width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.input button{
 
 }
