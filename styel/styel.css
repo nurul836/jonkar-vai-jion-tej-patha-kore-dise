@@ -331,4 +331,59 @@ letter-spacing: 0%;
 text-align: left;
 
 }
+
+.Donate{
+
+   width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.hading{
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+    
+.pass{
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 80% 2%;
+    margin: 20px
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.takacard{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.taka{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 200px;
+    padding: 20px;
+    background-color:#8ba4cc;
+    border-radius: 10px;
+    /* width: 450.67px;    */
+
+}
